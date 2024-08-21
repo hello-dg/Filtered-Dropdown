@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cfd2c1d-75ce-4c46-9127-78040d7d1c53" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/templates/filter-drop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Filtered-Drowdown.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Filtered-Drowdown.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9cfd2c1d-75ce-4c46-9127-78040d7d1c53" name="Changes" comment="Add search and filter functionality">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filter-drop.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/filter-drop.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/filter-drop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +76,29 @@
       <option name="project" value="LOCAL" />
       <updated>1724255819894</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create and style list with search box. Pull from list for client name as a test. Can enhance with database as needed.">
+      <option name="closed" value="true" />
+      <created>1724266332741</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724266332741</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add search and filter functionality">
+      <option name="closed" value="true" />
+      <created>1724266922124</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724266922124</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Create and style list with search box. Pull from list for client name as a test. Can enhance with database as needed." />
+    <MESSAGE value="Add search and filter functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add search and filter functionality" />
   </component>
 </project>
