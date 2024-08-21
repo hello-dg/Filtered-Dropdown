@@ -25,6 +25,24 @@
         </div>
     </div>
 
+    <script>
+        const searchInput = document.getElementById('search');
+        const clientList = document.querySelectorAll('.list-unstyled li');
+
+        searchInput.addEventListener('input', () => {
+            const query = searchInput.value.toLowerCase();
+
+            clientList.forEach(item => {
+                const clientName = item.textContent.toLowerCase();
+                if (clientName.includes(query)) {
+                    item.style.display = '';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    </script>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
